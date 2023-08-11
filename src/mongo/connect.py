@@ -6,5 +6,5 @@ class ConnectionMongo:
     def __init__(self):
         #_ NAME DB
         db = "dblogisticsv2"
-        connection = MongoClient('mongodb://root:sys4log44sa@137.184.146.205:27017', uuidRepresentation='standard')
+        connection = MongoClient('mongodb://URI', uuidRepresentation='standard')
         self.con = connection[db]
